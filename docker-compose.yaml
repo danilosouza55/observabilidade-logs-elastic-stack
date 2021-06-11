@@ -35,6 +35,7 @@ services:
 
   nginx:
     image: danilo55555/nginx-beats
+    container_name: nginx
     ports:
       - 80:80
     networks:
