@@ -36,7 +36,7 @@ services:
   nginx:
     image: danilo55555/nginx-beats
     ports:
-      - 9000:80
+      - 80:80
     networks:
       - es-network
 
